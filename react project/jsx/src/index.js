@@ -8,23 +8,9 @@ const el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
 // 4) Create a component
 function App() {
-    // let message = 'Bye there!';
-    // if (Math.random() > 0.5) {
-    //     message = 'Hello there!';
-    // }
-    //const date = new Date();
-    //const time = date.toLocaleTimeString();
-    //return<h1>{new Date().toLocaleTimeString()}</h1>'
-    // const name = 'Michael';
-    // const age = 36;
-    // return (
-    //     <div>
-    //         <h1>
-    //             Hi, my name is {name} and my age is {age}.
-    //         </h1>
-    //     </div>
-    // );
-    return <input />;
+    // const inputType = 'number';
+    // const minValue = 5;
+    return <input style={{ border: '3px solid red'}} type="number" min={5} />;
 
 }
 // 5) Show the component on the screen
