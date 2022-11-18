@@ -11,8 +11,10 @@ function App() {
     // const inputType = 'number';
     // const minValue = 5;
     //return <input style={{ border: '3px solid red'}} type="number" min={5} />;
-    return <textarea autoFocus={true} />;
-
+    //return <textarea autoFocus={true} />;
+    //return <input max={5} />;
+    //return <input spellCheck={false} />;
+    return <input style={{ border: '3px solid red'}} />;
 }
 // 5) Show the component on the screen
 root.render(<App />);
